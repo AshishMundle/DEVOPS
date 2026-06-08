@@ -27,9 +27,7 @@ Git tracks your code in **4 places**:
 
 Every git command moves code between these 4 places. That's it.
 
-<p align="center">
-  <img src="images/git-commands-for-freshers/workflow-animated.svg" alt="Git's 4 buckets — animated" width="100%"/>
-</p>
+
 
 > **In short:** `add` moves files to staging, `commit` moves staging to local repo, `push` moves local to remote, `pull` brings remote back to local.
 
@@ -164,9 +162,7 @@ git branch -D feature/abandoned
 
 A branch is just a movable pointer to a commit. Branches are cheap — create one for every feature, every bugfix, every experiment.
 
-<p align="center">
-  <img src="images/git-commands-for-freshers/branch-merge-animated.svg" alt="Branching and merging — animated" width="100%"/>
-</p>
+
 
 ### 8. `git checkout` — Switch branches
 
@@ -346,9 +342,7 @@ Rebase takes your commits and replays them on top of a new base. The result: a *
 - **drop** — delete commits
 - **reorder** — change commit order
 
-<p align="center">
-  <img src="images/git-commands-for-freshers/rebase-vs-merge-animated.svg" alt="Merge vs Rebase — animated" width="100%"/>
-</p>
+
 
 ### 17. `git fetch` — Download without merging
 
@@ -562,10 +556,3 @@ That one habit will save you from 80% of the mistakes freshers make.
 
 ---
 
-## References
-
-- [Pro Git Book (free)](https://git-scm.com/book/en/v2) — the official, comprehensive git guide
-- [Git Documentation](https://git-scm.com/docs)
-- [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow)
-- [Oh Shit, Git!?!](https://ohshitgit.com/) — quick recipes for when you mess up
-- [Learn Git Branching](https://learngitbranching.js.org/) — interactive visual git tutorial
